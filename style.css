@@ -1,0 +1,125 @@
+*{
+
+     margin: 0%;
+     padding: 0%;
+}
+
+
+.header{
+
+     display: flex;
+    justify-content: space-between;
+    padding: 40px 90px;
+}
+.header input{
+    width: 100%;
+    height: 5%;
+
+}
+
+.menu{
+
+     display: flex;
+    gap: 60px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: end;
+    gap: 60px;
+    font-size: 1.4em;
+    padding-top: 10px;
+    font-weight: 200;
+    list-style: none
+}
+
+
+
+.pp h1{
+ background-color:rgb(24, 121, 88); 
+ 
+}
+
+
+
+
+
+
+.hero{
+
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/pexels-dropshado-2251247\ \(1\).jpg);
+    /* background-repeat: no-repeat; */
+    
+    
+    background-position: end;
+ background-size: cover;
+    
+    margin-bottom: 10%;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+}
+
+ 
+.box{
+  /* grid-template-columns: repeat(auto-fit, minmax (200px,1fr)); */
+    display: grid;
+    gap: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.pic{
+
+    background: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+}
+
+.pic img{
+
+    width:100% ;
+    border-radius: 10px;
+
+}
+
+.pic h3{
+
+    margin: 10px 0;
+    color: rgb(24, 121, 88);
+    
+}
+
+.pic p{
+
+    font-weight: bold;
+    
+}
+
+.pic button{
+
+    margin-top: 10px;
+    background-color: rgb(24, 121, 88);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.box2{
+
+
+    display: grid;
+    gap: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
